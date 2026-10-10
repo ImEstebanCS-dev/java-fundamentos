@@ -1,4 +1,4 @@
-\# Fundamentos de Java
+﻿\# Fundamentos de Java
 
 
 
@@ -10,13 +10,13 @@ y prepararme para trabajar como desarrollador junior.
 
 \## Temas de estudio
 
-\- Variables y operadores
+- Variables y operadores
 
-\- Condicionales y ciclos
+- Condicionales y ciclos
 
-\- Métodos
+- Métodos
 
-\- Arreglos y colecciones
+- Arreglos y colecciones
 
-\- Programación orientada a objetos
+- Programación orientada a objetos
 
