@@ -4,7 +4,7 @@ public class CompraInteractiva {
 
     public static void main(String[]args){
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Ingrese el nombre del producto;");
+        System.out.println("Ingrese el nombre del producto:");
         String nombreProducto = scanner.nextLine();
 
         System.out.println("Ingrese el precio unitario: ");
@@ -13,19 +13,22 @@ public class CompraInteractiva {
         System.out.println("Ingrese la cantidad: ");
         int cantidad = scanner.nextInt();
 
-        System.out.println("Ingrese el porcentaje de descuento; ");
+        System.out.println("Ingrese el porcentaje de descuento: ");
         double porcentajeDescuento = scanner.nextDouble();
 
         double subtotal = cantidad * precioUnitario;
         double descuento = subtotal * porcentajeDescuento/100;
         double total = subtotal - descuento;
-        System.out.println(nombreProducto);
-        System.out.println(precioUnitario);
-        System.out.println(cantidad);
-        System.out.println(descuento);
-        System.out.println(subtotal);
-        System.out.println(total);
+        System.out.println("Nombre del producto: " + nombreProducto);
+        System.out.println("Precio unitario:" + precioUnitario);
+        System.out.println("Cantidad:" + cantidad);
+        System.out.println("Descuento:" + descuento);
+        System.out.println("Subtotal:" + subtotal);
+        System.out.println("Total:" + total);
+
+        scanner.close();
 
 
     }
+
 }
