@@ -34,6 +34,7 @@ public class CompraValidada {
             System.out.println("Total:" + total);
 
         }
+        scanner.close();
 
     }
 }
